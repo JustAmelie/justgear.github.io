@@ -91,12 +91,15 @@ nav.stickyadd .hamburger{
 
 /* Header */
 
-.full-screen-bg{
-	background: url("img/bg.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height: 100vh;
-	width: auto;
-	overflow: hidden;
+.full-screen-bg {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
 }
 
 header{
