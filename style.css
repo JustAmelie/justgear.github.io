@@ -27,6 +27,12 @@ h1, h2{
 	font-family: 'Amuse-Bouche';
 }
 
+h5{
+	color: #4D9391;
+	font-family: Rubik, sans-serif;
+	font-size: 1.25rem;
+}
+
 /* Navigation */
 
 nav.r-nav{
@@ -140,7 +146,7 @@ header{
 }
 
 .about img{
-	height: 100vh;
+	height: 100%;
 	width: auto;
 }
 
@@ -269,7 +275,17 @@ header{
 }
 
 footer{
-	height: 6vh;
+	height: 8vh;
 	background-color: #0a332f;
 	color: white;
+}
+
+h6{
+	color: white;
+	text-align: center;
+}
+
+iframe{
+	height: 80vh;
+	width: 100%;
 }
